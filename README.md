@@ -25,8 +25,8 @@ This milestone includes:
 - Hypothesis testing on monthly returns
 
 ## Main Preliminary Findings
-- PMI monthly returns are significantly different from zero at the 5% significance level.
-- PMI monthly returns and S&P 500 monthly returns show a statistically significant positive relationship.
+- PMI weekly returns are significantly different from zero at the 5% significance level.
+- PMI weekly returns and S&P 500 monthly returns show a statistically significant positive relationship.
 
 ## How to Run
 1. Install the required packages listed in `requirements.txt`
