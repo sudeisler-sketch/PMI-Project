@@ -1,7 +1,6 @@
 import pandas as pd
 from scipy import stats
-df = pd.read_csv("/Users/muude/Desktop/DSA210 PROJECT/pmi_weekly_project_data.csv")
-
+df = pd.read_csv("pmi_weekly_project_data.csv")
 t_stat, p_value = stats.ttest_1samp(df["PM_return"], 0)
 
 print("Hypothesis Test 1: One-sample t-test for PMI weekly returns")
