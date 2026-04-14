@@ -6,8 +6,8 @@ START_DATE = "2008-03-17"
 END_DATE = "2026-03-16"
 
 
-pm_data = yf.download("PM", start=START_DATE, end=END_DATE, interval="1mo")
-sp500_data = yf.download("^GSPC", start=START_DATE, end=END_DATE, interval="1mo")
+pm_data = yf.download("PM", start=START_DATE, end=END_DATE, interval="1wk")
+sp500_data = yf.download("^GSPC", start=START_DATE, end=END_DATE, interval="1wk")
 
 
 print("PM columns:", pm_data.columns)
