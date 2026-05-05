@@ -35,10 +35,12 @@ This milestone includes:
 - Descriptive statistics and visual analysis
 - Correlation analysis
 - Hypothesis testing
+- Boxplot analysis for outlier detection
 
 ## Main Preliminary Findings
 - PMI weekly returns are statistically significantly different from zero at the 5% significance level.
 - PMI weekly returns and S&P 500 weekly returns show a statistically significant positive relationship.
+- Boxplots were added to detect potential outliers in PM weekly returns and S&P 500 weekly returns.
 
 ## How to Run
 1. Install the required packages listed in `requirements.txt`
