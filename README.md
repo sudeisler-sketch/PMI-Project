@@ -62,6 +62,3 @@ The Random Forest feature importance results show that S&P 500 weekly returns ha
 
 ## AI Disclosure
 AI tools were used for brainstorming, debugging, structuring the analysis, and improving language. Final decisions and submission were completed by the student.
-
-## AI Disclosure
-AI tools were used for brainstorming, debugging, structuring the analysis, and improving language. Final decisions and submission were completed by the student.
