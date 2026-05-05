@@ -37,6 +37,18 @@ This milestone includes:
 - Hypothesis testing
 - Boxplot analysis for outlier detection
 
+# Milestone 2 Content
+
+For the second milestone, I applied machine learning methods to predict PMI weekly returns using S&P 500 weekly returns and PM trading volume as input features.
+
+The models used in this milestone are:
+- Linear Regression
+- Random Forest Regressor
+
+The models were evaluated using Mean Squared Error and R-squared. Linear Regression performed better than Random Forest on the test set, which suggests that a simple linear relationship between PMI weekly returns and market-related variables may be more suitable for this dataset at this stage.
+
+The Random Forest feature importance results show that S&P 500 weekly returns had a stronger influence than PM trading volume in predicting PMI weekly returns.
+
 ## Main Preliminary Findings
 - PMI weekly returns are statistically significantly different from zero at the 5% significance level.
 - PMI weekly returns and S&P 500 weekly returns show a statistically significant positive relationship.
