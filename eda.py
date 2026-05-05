@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 df = pd.read_csv("pmi_weekly_project_data.csv")
 
@@ -51,4 +52,27 @@ plt.title("PMI vs S&P 500 Weekly Returns")
 plt.xlabel("Date")
 plt.ylabel("Return")
 plt.legend()
+plt.show()
+
+# Boxplots for outlier detection
+
+plt.figure(figsize=(8, 5))
+sns.boxplot(y=df["PM_return"])
+plt.title("Boxplot of PM Weekly Returns")
+plt.ylabel("PM Weekly Return")
+plt.tight_layout()
+plt.show()
+
+plt.figure(figsize=(8, 5))
+sns.boxplot(y=df["SP500_return"])
+plt.title("Boxplot of S&P 500 Weekly Returns")
+plt.ylabel("S&P 500 Weekly Return")
+plt.tight_layout()
+plt.show()
+
+plt.figure(figsize=(8, 5))
+sns.boxplot(y=df["Treasury_10Y_change"])
+plt.title("Boxplot of 10-Year Treasury Yield Weekly Changes")
+plt.ylabel("Weekly Change in 10-Year Treasury Yield")
+plt.tight_layout()
 plt.show()
